@@ -1,0 +1,39 @@
+## --- Visual Studio spezifisch ---
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## --- Build-Ordner ---
+bin/
+obj/
+
+## --- Paketverwaltung ---
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+
+## --- Veröffentlichungsoutput ---
+*.Publish.xml
+*.dbmdl
+*.bak
+*.log
+
+## --- Sonstiger generierter Kram ---
+TestResults/
+*.Cache
+*.ide
+*.tmp
+*.csproj.user
+
+## --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## --- Recycle Bin / MacOS / Linux ---
+$RECYCLE.BIN/
+.DS_Store
+.Trashes
